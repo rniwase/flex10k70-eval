@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name altera_flex10k)(type Legacy)(uri ${KIPRJMOD}/lib/altera_flex10k.lib)(options "")(descr ""))
+)
