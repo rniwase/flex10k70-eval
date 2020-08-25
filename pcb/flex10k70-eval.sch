@@ -1830,12 +1830,12 @@ Connection ~ 6500 9100
 $Comp
 L power:GND #PWR010
 U 1 1 5F613FE4
-P 6400 11100
-F 0 "#PWR010" H 6400 10850 50  0001 C CNN
-F 1 "GND" H 6405 10927 50  0000 C CNN
-F 2 "" H 6400 11100 50  0001 C CNN
-F 3 "" H 6400 11100 50  0001 C CNN
-	1    6400 11100
+P 6400 10600
+F 0 "#PWR010" H 6400 10350 50  0001 C CNN
+F 1 "GND" H 6405 10427 50  0000 C CNN
+F 2 "" H 6400 10600 50  0001 C CNN
+F 3 "" H 6400 10600 50  0001 C CNN
+	1    6400 10600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1871,69 +1871,14 @@ F 3 "" H 8000 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x30_Odd_Even CN4
-U 1 1 5F692395
-P 15800 5100
-F 0 "CN4" H 15850 6717 50  0000 C CNN
-F 1 "IO_4" H 15850 6626 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical_SMD" H 15800 5100 50  0001 C CNN
-F 3 "~" H 15800 5100 50  0001 C CNN
-	1    15800 5100
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 5F6977B8
-P 14900 10600
-F 0 "#PWR032" H 14900 10350 50  0001 C CNN
-F 1 "GND" H 14905 10427 50  0000 C CNN
-F 2 "" H 14900 10600 50  0001 C CNN
-F 3 "" H 14900 10600 50  0001 C CNN
-	1    14900 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR034
-U 1 1 5F6977CB
-P 15000 8000
-F 0 "#PWR034" H 15000 7850 50  0001 C CNN
-F 1 "+5V" H 15015 8173 50  0000 C CNN
-F 2 "" H 15000 8000 50  0001 C CNN
-F 3 "" H 15000 8000 50  0001 C CNN
-	1    15000 8000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR040
-U 1 1 5F6ADC45
-P 16600 10600
-F 0 "#PWR040" H 16600 10350 50  0001 C CNN
-F 1 "GND" H 16605 10427 50  0000 C CNN
-F 2 "" H 16600 10600 50  0001 C CNN
-F 3 "" H 16600 10600 50  0001 C CNN
-	1    16600 10600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR038
-U 1 1 5F6F6885
-P 16500 8000
-F 0 "#PWR038" H 16500 7850 50  0001 C CNN
-F 1 "+5V" H 16515 8173 50  0000 C CNN
-F 2 "" H 16500 8000 50  0001 C CNN
-F 3 "" H 16500 8000 50  0001 C CNN
-	1    16500 8000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR022
 U 1 1 5F6503D8
-P 8100 11100
-F 0 "#PWR022" H 8100 10850 50  0001 C CNN
-F 1 "GND" H 8105 10927 50  0000 C CNN
-F 2 "" H 8100 11100 50  0001 C CNN
-F 3 "" H 8100 11100 50  0001 C CNN
-	1    8100 11100
+P 8100 10600
+F 0 "#PWR022" H 8100 10350 50  0001 C CNN
+F 1 "GND" H 8105 10427 50  0000 C CNN
+F 2 "" H 8100 10600 50  0001 C CNN
+F 3 "" H 8100 10600 50  0001 C CNN
+	1    8100 10600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -2003,85 +1948,85 @@ Text Label 19500 9950 1    50   ~ 0
 PIN_131
 Text Label 19700 9950 1    50   ~ 0
 PIN_133
-Text Label 16000 10400 0    50   ~ 0
+Text Label 16000 10500 0    50   ~ 0
 PIN_136
-Text Label 16000 10300 0    50   ~ 0
+Text Label 16000 10400 0    50   ~ 0
 PIN_138
-Text Label 16000 10200 0    50   ~ 0
+Text Label 16000 10300 0    50   ~ 0
 PIN_141
-Text Label 16000 10100 0    50   ~ 0
+Text Label 16000 10200 0    50   ~ 0
 PIN_143
-Text Label 16000 9900 0    50   ~ 0
+Text Label 16000 10000 0    50   ~ 0
 PIN_146
-Text Label 16000 9800 0    50   ~ 0
+Text Label 16000 9900 0    50   ~ 0
 PIN_148
-Text Label 16000 9700 0    50   ~ 0
+Text Label 16000 9800 0    50   ~ 0
 PIN_151
-Text Label 16000 9600 0    50   ~ 0
+Text Label 16000 9700 0    50   ~ 0
 PIN_153
-Text Label 16000 9400 0    50   ~ 0
+Text Label 16000 9500 0    50   ~ 0
 PIN_156
-Text Label 16000 9300 0    50   ~ 0
+Text Label 16000 9400 0    50   ~ 0
 PIN_158
-Text Label 16000 9200 0    50   ~ 0
+Text Label 16000 9300 0    50   ~ 0
 PIN_161
-Text Label 16000 9100 0    50   ~ 0
+Text Label 16000 9200 0    50   ~ 0
 PIN_163
-Text Label 16000 8900 0    50   ~ 0
+Text Label 16000 9000 0    50   ~ 0
 PIN_166
-Text Label 16000 8800 0    50   ~ 0
+Text Label 16000 8900 0    50   ~ 0
 PIN_168
-Text Label 16000 8700 0    50   ~ 0
+Text Label 16000 8800 0    50   ~ 0
 PIN_171
-Text Label 16000 8600 0    50   ~ 0
+Text Label 16000 8700 0    50   ~ 0
 PIN_173
-Text Label 16000 8400 0    50   ~ 0
+Text Label 16000 8500 0    50   ~ 0
 PIN_175
-Text Label 16000 8300 0    50   ~ 0
+Text Label 16000 8400 0    50   ~ 0
 PIN_182
-Text Label 16000 8200 0    50   ~ 0
+Text Label 16000 8300 0    50   ~ 0
 PIN_184
-Text Label 16000 8100 0    50   ~ 0
+Text Label 16000 8200 0    50   ~ 0
 PIN_186
-Text Label 15500 8100 2    50   ~ 0
-PIN_187
 Text Label 15500 8200 2    50   ~ 0
-PIN_185
+PIN_187
 Text Label 15500 8300 2    50   ~ 0
-PIN_183
+PIN_185
 Text Label 15500 8400 2    50   ~ 0
+PIN_183
+Text Label 15500 8500 2    50   ~ 0
 PIN_181
-Text Label 15500 8600 2    50   ~ 0
-PIN_174
 Text Label 15500 8700 2    50   ~ 0
-PIN_172
+PIN_174
 Text Label 15500 8800 2    50   ~ 0
-PIN_169
+PIN_172
 Text Label 15500 8900 2    50   ~ 0
+PIN_169
+Text Label 15500 9000 2    50   ~ 0
 PIN_167
-Text Label 15500 9100 2    50   ~ 0
-PIN_164
 Text Label 15500 9200 2    50   ~ 0
-PIN_162
+PIN_164
 Text Label 15500 9300 2    50   ~ 0
-PIN_159
+PIN_162
 Text Label 15500 9400 2    50   ~ 0
+PIN_159
+Text Label 15500 9500 2    50   ~ 0
 PIN_157
-Text Label 15500 9600 2    50   ~ 0
-PIN_154
 Text Label 15500 9700 2    50   ~ 0
-PIN_152
+PIN_154
 Text Label 15500 9800 2    50   ~ 0
-PIN_149
+PIN_152
 Text Label 15500 9900 2    50   ~ 0
+PIN_149
+Text Label 15500 10000 2    50   ~ 0
 PIN_147
-Text Label 15500 10100 2    50   ~ 0
-PIN_144
 Text Label 15500 10200 2    50   ~ 0
-PIN_142
+PIN_144
 Text Label 15500 10300 2    50   ~ 0
-PIN_139
+PIN_142
 Text Label 15500 10400 2    50   ~ 0
+PIN_139
+Text Label 15500 10500 2    50   ~ 0
 PIN_137
 Text Label 19800 9950 1    50   ~ 0
 PIN_134
@@ -2114,33 +2059,25 @@ F 3 "" H 15000 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	15000 6500 15500 6500
+	15500 5600 15000 5600
 Wire Wire Line
-	15500 5500 15000 5500
-Connection ~ 15000 5500
+	15500 4600 15000 4600
 Wire Wire Line
-	15000 5500 15000 6500
+	15000 4600 15000 5600
 Wire Wire Line
-	15500 4500 15000 4500
+	15500 4100 14900 4100
 Wire Wire Line
-	15000 4500 15000 5500
+	14900 4100 14900 5100
 Wire Wire Line
-	15500 4000 14900 4000
+	15500 5100 14900 5100
+Connection ~ 14900 5100
 Wire Wire Line
-	14900 4000 14900 5000
+	14900 5100 14900 6100
 Wire Wire Line
-	15500 5000 14900 5000
-Connection ~ 14900 5000
+	15500 6100 14900 6100
 Wire Wire Line
-	14900 5000 14900 6000
-Wire Wire Line
-	15500 6000 14900 6000
-Connection ~ 14900 6000
-Wire Wire Line
-	14900 6000 14900 6600
-Wire Wire Line
-	15000 3500 15000 4500
-Connection ~ 15000 4500
+	15000 3600 15000 4600
+Connection ~ 15000 4600
 $Comp
 L power:GND #PWR039
 U 1 1 5FC133C1
@@ -2164,128 +2101,120 @@ F 3 "" H 16500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	16000 6500 16500 6500
+	16000 5600 16500 5600
 Wire Wire Line
-	16000 5500 16500 5500
-Connection ~ 16500 5500
+	16000 4600 16500 4600
 Wire Wire Line
-	16500 5500 16500 6500
+	16500 4600 16500 5600
 Wire Wire Line
-	16000 4500 16500 4500
+	16000 4100 16600 4100
 Wire Wire Line
-	16500 4500 16500 5500
+	16600 4100 16600 5100
 Wire Wire Line
-	16000 4000 16600 4000
+	16000 5100 16600 5100
+Connection ~ 16600 5100
 Wire Wire Line
-	16600 4000 16600 5000
+	16600 5100 16600 6100
 Wire Wire Line
-	16000 5000 16600 5000
-Connection ~ 16600 5000
+	16000 6100 16600 6100
 Wire Wire Line
-	16600 5000 16600 6000
-Wire Wire Line
-	16000 6000 16600 6000
-Connection ~ 16600 6000
-Wire Wire Line
-	16600 6000 16600 6600
-Wire Wire Line
-	16500 3500 16500 4500
-Connection ~ 16500 4500
-Text Label 16000 6400 0    50   ~ 0
+	16500 3600 16500 4600
+Connection ~ 16500 4600
+Text Label 16000 6500 0    50   ~ 0
 PIN_188
-Text Label 15500 6400 2    50   ~ 0
+Text Label 15500 6500 2    50   ~ 0
 PIN_190
-Text Label 16000 6300 0    50   ~ 0
+Text Label 16000 6400 0    50   ~ 0
 PIN_191
-Text Label 15500 6300 2    50   ~ 0
+Text Label 15500 6400 2    50   ~ 0
 PIN_192
-Text Label 16000 6200 0    50   ~ 0
+Text Label 16000 6300 0    50   ~ 0
 PIN_193
-Text Label 15500 6200 2    50   ~ 0
+Text Label 15500 6300 2    50   ~ 0
 PIN_194
-Text Label 16000 6100 0    50   ~ 0
+Text Label 16000 6200 0    50   ~ 0
 PIN_195
-Text Label 15500 6100 2    50   ~ 0
+Text Label 15500 6200 2    50   ~ 0
 PIN_196
-Text Label 16000 5900 0    50   ~ 0
+Text Label 16000 6000 0    50   ~ 0
 PIN_198
-Text Label 15500 5900 2    50   ~ 0
+Text Label 15500 6000 2    50   ~ 0
 PIN_199
-Text Label 16000 5800 0    50   ~ 0
+Text Label 16000 5900 0    50   ~ 0
 PIN_200
-Text Label 15500 5800 2    50   ~ 0
+Text Label 15500 5900 2    50   ~ 0
 PIN_201
-Text Label 16000 5700 0    50   ~ 0
+Text Label 16000 5800 0    50   ~ 0
 PIN_202
-Text Label 15500 5700 2    50   ~ 0
+Text Label 15500 5800 2    50   ~ 0
 PIN_203
-Text Label 16000 5600 0    50   ~ 0
+Text Label 16000 5700 0    50   ~ 0
 PIN_204
-Text Label 15500 5600 2    50   ~ 0
+Text Label 15500 5700 2    50   ~ 0
 PIN_206
-Text Label 16000 5400 0    50   ~ 0
+Text Label 16000 5500 0    50   ~ 0
 PIN_207
-Text Label 15500 5400 2    50   ~ 0
+Text Label 15500 5500 2    50   ~ 0
 PIN_208
-Text Label 16000 5300 0    50   ~ 0
+Text Label 16000 5400 0    50   ~ 0
 PIN_209
-Text Label 15500 5300 2    50   ~ 0
+Text Label 15500 5400 2    50   ~ 0
 PIN_210
-Text Label 16000 5200 0    50   ~ 0
+Text Label 16000 5300 0    50   ~ 0
 PIN_211
-Text Label 15500 5200 2    50   ~ 0
+Text Label 15500 5300 2    50   ~ 0
 PIN_212
-Text Label 16000 5100 0    50   ~ 0
+Text Label 16000 5200 0    50   ~ 0
 PIN_213
-Text Label 15500 5100 2    50   ~ 0
+Text Label 15500 5200 2    50   ~ 0
 PIN_214
-Text Label 16000 4900 0    50   ~ 0
+Text Label 16000 5000 0    50   ~ 0
 PIN_215
-Text Label 15500 4900 2    50   ~ 0
+Text Label 15500 5000 2    50   ~ 0
 PIN_217
-Text Label 16000 4800 0    50   ~ 0
+Text Label 16000 4900 0    50   ~ 0
 PIN_218
-Text Label 15500 4800 2    50   ~ 0
+Text Label 15500 4900 2    50   ~ 0
 PIN_219
-Text Label 16000 4700 0    50   ~ 0
+Text Label 16000 4800 0    50   ~ 0
 PIN_220
-Text Label 15500 4700 2    50   ~ 0
+Text Label 15500 4800 2    50   ~ 0
 PIN_221
-Text Label 16000 4600 0    50   ~ 0
+Text Label 16000 4700 0    50   ~ 0
 PIN_222
-Text Label 15500 4600 2    50   ~ 0
+Text Label 15500 4700 2    50   ~ 0
 PIN_223
-Text Label 16000 4400 0    50   ~ 0
+Text Label 16000 4500 0    50   ~ 0
 PIN_225
-Text Label 15500 4400 2    50   ~ 0
+Text Label 15500 4500 2    50   ~ 0
 PIN_226
-Text Label 16000 4300 0    50   ~ 0
+Text Label 16000 4400 0    50   ~ 0
 PIN_227
-Text Label 15500 4300 2    50   ~ 0
+Text Label 15500 4400 2    50   ~ 0
 PIN_228
-Text Label 16000 4200 0    50   ~ 0
+Text Label 16000 4300 0    50   ~ 0
 PIN_229
-Text Label 15500 4200 2    50   ~ 0
+Text Label 15500 4300 2    50   ~ 0
 PIN_230
-Text Label 16000 4100 0    50   ~ 0
+Text Label 16000 4200 0    50   ~ 0
 PIN_231
-Text Label 15500 4100 2    50   ~ 0
+Text Label 15500 4200 2    50   ~ 0
 PIN_233
-Text Label 16000 3900 0    50   ~ 0
+Text Label 16000 4000 0    50   ~ 0
 PIN_234
-Text Label 15500 3900 2    50   ~ 0
+Text Label 15500 4000 2    50   ~ 0
 PIN_235
-Text Label 16000 3800 0    50   ~ 0
+Text Label 16000 3900 0    50   ~ 0
 PIN_236
-Text Label 15500 3800 2    50   ~ 0
+Text Label 15500 3900 2    50   ~ 0
 PIN_237
-Text Label 16000 3700 0    50   ~ 0
+Text Label 16000 3800 0    50   ~ 0
 PIN_238
-Text Label 15500 3700 2    50   ~ 0
+Text Label 15500 3800 2    50   ~ 0
 PIN_239
-Text Label 16000 3600 0    50   ~ 0
+Text Label 16000 3700 0    50   ~ 0
 PIN_240
-NoConn ~ 15500 3600
+NoConn ~ 15500 3700
 $Comp
 L Device:C C21
 U 1 1 5F3F1341
@@ -2561,14 +2490,8 @@ Wire Wire Line
 	6400 9600 6400 10500
 Wire Wire Line
 	7500 10500 8100 10500
-Connection ~ 8100 10500
-Wire Wire Line
-	8100 10500 8100 11100
 Wire Wire Line
 	7000 10500 6400 10500
-Connection ~ 6400 10500
-Wire Wire Line
-	6400 10500 6400 11100
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even CN2
 U 1 1 5F87671E
@@ -2583,60 +2506,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x25_Odd_Even CN3
 U 1 1 5F8C8614
-P 15800 9300
-F 0 "CN3" H 15850 7875 50  0000 C CNN
-F 1 "IO_3" H 15850 7966 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical_SMD" H 15800 9300 50  0001 C CNN
-F 3 "~" H 15800 9300 50  0001 C CNN
-	1    15800 9300
-	-1   0    0    1   
+P 15700 9300
+F 0 "CN3" H 15750 7875 50  0000 C CNN
+F 1 "IO_3" H 15750 7966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x25_P2.54mm_Vertical_SMD" H 15700 9300 50  0001 C CNN
+F 3 "~" H 15700 9300 50  0001 C CNN
+	1    15700 9300
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15000 8000 15000 8500
-Wire Wire Line
-	16000 10500 16500 10500
-Wire Wire Line
-	15500 10500 15000 10500
-Wire Wire Line
-	16000 10000 16600 10000
-Wire Wire Line
-	16000 9500 16500 9500
-Wire Wire Line
-	16500 8000 16500 8500
-Connection ~ 16500 9500
-Wire Wire Line
-	16500 9500 16500 10500
-Wire Wire Line
-	16000 9000 16600 9000
-Wire Wire Line
-	16600 9000 16600 10000
-Wire Wire Line
-	16000 8500 16500 8500
-Connection ~ 16500 8500
-Wire Wire Line
-	16500 8500 16500 9500
-Wire Wire Line
-	15500 8500 15000 8500
-Connection ~ 15000 8500
-Wire Wire Line
-	15000 8500 15000 9500
-Wire Wire Line
-	15500 9000 14900 9000
-Wire Wire Line
-	14900 9000 14900 10000
-Wire Wire Line
-	15500 9500 15000 9500
-Connection ~ 15000 9500
-Wire Wire Line
-	15000 9500 15000 10500
-Wire Wire Line
-	15500 10000 14900 10000
-Wire Wire Line
-	16600 10600 16600 10000
-Connection ~ 16600 10000
-Wire Wire Line
-	14900 10600 14900 10000
-Connection ~ 14900 10000
 $Comp
 L Switch:SW_DIP_x04 SW1
 U 1 1 5FA845CC
@@ -3071,4 +2948,127 @@ Wire Wire Line
 Wire Wire Line
 	19800 10650 19800 10550
 Connection ~ 19700 10650
+Wire Wire Line
+	6400 10500 6400 10600
+Connection ~ 6400 10500
+Wire Wire Line
+	8100 10500 8100 10600
+Connection ~ 8100 10500
+$Comp
+L power:+5V #PWR?
+U 1 1 5F5B6EDA
+P 15000 8000
+F 0 "#PWR?" H 15000 7850 50  0001 C CNN
+F 1 "+5V" H 15015 8173 50  0000 C CNN
+F 2 "" H 15000 8000 50  0001 C CNN
+F 3 "" H 15000 8000 50  0001 C CNN
+	1    15000 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15000 8000 15000 8100
+Wire Wire Line
+	15000 8100 15500 8100
+Wire Wire Line
+	15500 9100 15000 9100
+Wire Wire Line
+	15000 9100 15000 8100
+Connection ~ 15000 8100
+Wire Wire Line
+	15000 9100 15000 10100
+Wire Wire Line
+	15000 10100 15500 10100
+Connection ~ 15000 9100
+$Comp
+L power:GND #PWR?
+U 1 1 5F5B6EE8
+P 14900 10600
+F 0 "#PWR?" H 14900 10350 50  0001 C CNN
+F 1 "GND" H 14905 10427 50  0000 C CNN
+F 2 "" H 14900 10600 50  0001 C CNN
+F 3 "" H 14900 10600 50  0001 C CNN
+	1    14900 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 9600 14900 9600
+Wire Wire Line
+	15500 8600 14900 8600
+Wire Wire Line
+	14900 8600 14900 9600
+Connection ~ 14900 9600
+Wire Wire Line
+	14900 9600 14900 10600
+Wire Wire Line
+	16000 9100 16500 9100
+Wire Wire Line
+	16000 10100 16500 10100
+Wire Wire Line
+	16500 10100 16500 9100
+Connection ~ 16500 9100
+Connection ~ 16500 8100
+Wire Wire Line
+	16500 9100 16500 8100
+Wire Wire Line
+	16500 8100 16500 8000
+Wire Wire Line
+	16000 8100 16500 8100
+$Comp
+L power:+5V #PWR?
+U 1 1 5F5F31E8
+P 16500 8000
+F 0 "#PWR?" H 16500 7850 50  0001 C CNN
+F 1 "+5V" H 16515 8173 50  0000 C CNN
+F 2 "" H 16500 8000 50  0001 C CNN
+F 3 "" H 16500 8000 50  0001 C CNN
+	1    16500 8000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F5F31EE
+P 16600 10600
+F 0 "#PWR?" H 16600 10350 50  0001 C CNN
+F 1 "GND" H 16605 10427 50  0000 C CNN
+F 2 "" H 16600 10600 50  0001 C CNN
+F 3 "" H 16600 10600 50  0001 C CNN
+	1    16600 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16000 8600 16600 8600
+Wire Wire Line
+	16000 9600 16600 9600
+Wire Wire Line
+	16600 8600 16600 9600
+Connection ~ 16600 9600
+Wire Wire Line
+	16600 9600 16600 10600
+$Comp
+L Connector_Generic:Conn_02x30_Odd_Even CN4
+U 1 1 5F692395
+P 15700 5000
+F 0 "CN4" H 15750 6617 50  0000 C CNN
+F 1 "IO_4" H 15750 6526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x30_P2.54mm_Vertical_SMD" H 15700 5000 50  0001 C CNN
+F 3 "~" H 15700 5000 50  0001 C CNN
+	1    15700 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15500 3600 15000 3600
+Connection ~ 15000 3600
+Wire Wire Line
+	16000 3600 16500 3600
+Connection ~ 16500 3600
+Wire Wire Line
+	15000 3500 15000 3600
+Wire Wire Line
+	16500 3500 16500 3600
+Wire Wire Line
+	16600 6100 16600 6600
+Connection ~ 16600 6100
+Wire Wire Line
+	14900 6100 14900 6600
+Connection ~ 14900 6100
 $EndSCHEMATC
